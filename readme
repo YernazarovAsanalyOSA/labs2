@@ -1,0 +1,7 @@
+[Хост: Windows, 16 ГБ RAM]
+        |
+ VirtualBox NAT Network "osarch-net" 10.0.2.0/24
+     |                     |
+ [Ubuntu 10.0.2.15]   [Windows 11 10.0.2.4]
+        \                   /
+         NAT-шлюз 10.0.2.1 --> Интернет
